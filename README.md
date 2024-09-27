@@ -3,9 +3,8 @@
 ## Overview
 AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_vel`, `scan`, `odom`, and more. This repository contains the ROS 2 packages needed to control AckBot and interface with its sensors.
 
-
 ## Features
-- Handles the core control topics for the Ackbot robot.
+- Handles the core control topics for the AckBot robot.
 - Interfaces with various sensors (LiDAR, IMU, Camera, etc.).
 - Publishes essential topics for robot state, velocity, and sensor data.
 
@@ -23,8 +22,12 @@ AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_
 ### Prerequisites
 - ROS 2 Humble
 - A Raspberry Pi 4
+- Colcon build system
 
-### Clone the Repository
-```bash
-git clone https://github.com/thetacobytes/ackbot.git
-cd ackbot
+### Clone the Repository and Set Up the Workspace
+
+1. **Create a new workspace**:
+   First, create a workspace for ROS 2 if you don’t have one already:
+   ```bash
+   mkdir -p ~/ackbot_ws/src
+   cd ~/ackbot_ws/src
