@@ -21,7 +21,7 @@ AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_
 ## Installation
 ### Prerequisites
 - ROS 2 Humble
-- A Raspberry Pi 4
+- A Raspberry Pi 4 With Ubuntu 22.04
 - Colcon build system
 
 ### Clone the Repository and Set Up the Workspace
