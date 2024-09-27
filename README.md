@@ -12,7 +12,7 @@ AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_
 
 ### Required Components
 You can find all the necessary parts in this Amazon wishlist:
-[Amazon Wishlist for AckBot](https://www.amazon.com/hz/wishlist/ls/1HPBW0ZJIIN79?ref_=wl_share)
+[Amazon List for AckBot](https://www.amazon.com/hz/wishlist/ls/1HPBW0ZJIIN79?ref_=wl_share)
 
 
 ## ROS Nodes
