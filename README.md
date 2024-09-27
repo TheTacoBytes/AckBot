@@ -1,5 +1,8 @@
 # AckBot
 
+![](https://img.youtube.com/vi/_NOll4nOzi4/maxresdefault.jpg)
+[![Watch the video](https://img.shields.io/badge/Watch%20Video-YouTube-red)](https://www.youtube.com/watch?v=_NOll4nOzi4)
+
 ## Overview
 AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_vel`, `scan`, `odom`, and more. This repository contains the ROS 2 packages needed to control AckBot and interface with its sensors.
 
