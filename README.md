@@ -1,7 +1,8 @@
 # AckBot
 
 ## Overview
-Ackbot Control is a ROS 2 package that manages the core functionality of the Ackbot platform. This package is responsible for handling topics such as `cmd_vel`, `scan`, `odom`, and more.
+AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_vel`, `scan`, `odom`, and more. This repository contains the ROS 2 packages needed to control AckBot and interface with its sensors.
+
 
 ## Features
 - Handles the core control topics for the Ackbot robot.
