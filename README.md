@@ -31,3 +31,31 @@ AckBot is a ROS 2 robot platform that handles core functionalities such as `cmd_
    ```bash
    mkdir -p ~/ackbot_ws/src
    cd ~/ackbot_ws/src
+   ```
+2. **Clone the repository into the workspace**:
+   ```bash
+   git clone https://github.com/thetacobytes/ackbot.git
+   ```
+3. **Go to the workspace root and build**:
+   Navigate back to the workspace root and build the workspace using `colcon`:
+   ```bash
+   cd ~/ackbot_ws
+   colcon build
+   ```
+4. **Source the workspace**:
+   After building, source the setup file:
+   ```bash
+   source install/setup.bash
+   ```
+### Running the Nodes
+You can now run the various ROS 2 nodes provided in this workspace with one launch command.
+   ```bash
+   ros2 launch ackbot_description start_nodes_launch.py
+  ```
+### Setting the `ROS_DOMAIN_ID` for Multi-Machine Communication
+If you are using multiple machines and want them to see each other's topics, you need to set the `ROS_DOMAIN_ID` to the same value on all machines. For example, you can set it to `1` by running:
+   ```bash
+   export ROS_DOMAIN_ID=1
+   ```
+
+
