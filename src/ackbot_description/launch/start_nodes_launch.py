@@ -31,10 +31,17 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'video_device': '/dev/video0'},
-                {'image_width': 1280},
-                {'image_height': 720},
+                {'image_width': 640},
+                {'image_height': 480},
                 {'pixel_format': 'yuyv'},  
-                {'camera_frame_id': 'camera'}
+                {'camera_frame_id': 'camera'},
+                {'framerate': 15.0},
+                {'brightness': 128},                    # Final brightness
+                {'contrast': 75},                       # Final contrast
+                {'sharpness': 255},                     # Final sharpness
+                {'auto_exposure': 3},                   # Final auto exposure (Aperture Priority Mode)
+                {'exposure_time_absolute': 500},        # Final exposure time
+                {'white_balance_automatic': 1},         # Final white balance automatic
             ]
         ),
         # LIDAR node
