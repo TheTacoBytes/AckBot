@@ -93,5 +93,13 @@ If you are using multiple machines and want them to see each other's topics, you
    ```bash
    export ROS_DOMAIN_ID=1
    ```
+# Note
 
+This repository contains the core description and configuration files for the AckBot robot, but **it does not include any control mechanisms or navigation capabilities**.
+
+## Controlling AckBot and Creating Maps
+
+If you want to control the AckBot using a PS4 controller, perform **SLAM** to create maps, or use **Nav2** and **AMCL** for autonomous navigation, please refer to the AckBot Navigation repository:
+
+[AckBot Navigation** Repository](https://github.com/TheTacoBytes/AckBot_Navigation)
 
