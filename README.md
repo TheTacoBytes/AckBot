@@ -101,5 +101,5 @@ This repository contains the core description and configuration files for the Ac
 
 If you want to control the AckBot using a PS4 controller, perform **SLAM** to create maps, or use **Nav2** and **AMCL** for autonomous navigation, please refer to the AckBot Navigation repository:
 
-[AckBot Navigation** Repository](https://github.com/TheTacoBytes/AckBot_Navigation)
+[**AckBot Navigation** Repository](https://github.com/TheTacoBytes/AckBot_Navigation)
 
