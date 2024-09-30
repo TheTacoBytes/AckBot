@@ -105,7 +105,7 @@ If you want to control the AckBot using a PS4 controller, perform **SLAM** to cr
 
 The **AckBot Navigation** repository is designed to be run on a laptop that communicates with the Pi 4 on the AckBot. This laptop runs:
 
-- The joy controller node to control the robot manually.
+- The PS4 controller node to control the robot manually.
 - SLAM to create maps of the environment.
 - AMCL and Nav2 for path planning and navigation.
 
