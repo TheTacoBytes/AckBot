@@ -54,11 +54,11 @@ nmtui
    3.**Navigate the Menu**: Once the nmtui interface opens, you’ll be presented with three options:
 - Activate a connection
 - Set system hostname
--  Edit a connection
+- Edit a connection
 
-Use the arrow keys to select **Activate a connection** and press Enter.
+Use the arrow keys to select **Activate a connection** and press **Enter**.
 
-If you only see one connection there just press Enter and the rest should load up. Then, use the arrows and select the network and enter the password.
+If only one connection is initially displayed, press **Enter** to load the rest. Then, use the arrow keys to select the desired network and enter the password.
 
 ### Clone the Repository and Set Up the Workspace
 
