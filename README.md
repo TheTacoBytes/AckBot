@@ -103,10 +103,11 @@ If you want to control the AckBot using a PS4 controller, perform **SLAM** to cr
 
 [**AckBot Navigation** Repository](https://github.com/TheTacoBytes/AckBot_Navigation)
 
-The **AckBot Navigation** repository is designed to be run on a laptop that communicates with the Pi 4 on the AckBot. This laptop runs:
+The **AckBot Navigation** repository is designed to be run on a laptop that communicates with the Pi 4 on the AckBot. This will run:
 
 - The PS4 controller node to control the robot manually.
 - SLAM to create maps of the environment.
 - AMCL and Nav2 for path planning and navigation.
+- USB Camera feed for video streaming.
 
 Be sure to clone the **AckBot Navigation** repository to your **laptop** to perform these actions.
