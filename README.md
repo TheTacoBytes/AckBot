@@ -39,7 +39,10 @@ From this link, you can download the **image (img)** file to flash onto the micr
 *I will make every effort to update the code in the image whenever changes are made. If for any reason I am unable to update it immediately, I will mention it here so that you can clone the latest version of the repository and rebuild accordingly.*
 
 ## Update the Wi-Fi on the Pi
-Connect the Pi to a monitor and sign in. The username is **ubuntu** and the password is **123**.
+Connect the Raspberry Pi to a monitor and sign in using the following credentials:
+
+- Username: `ubuntu`
+- Password: `123`
 
 ### Steps to Update or Configure Wi-Fi Using `nmtui`
    1.**Open Terminal**: Start by opening a terminal on your system.
