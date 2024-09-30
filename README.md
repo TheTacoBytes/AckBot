@@ -36,12 +36,12 @@ You can find all the necessary parts in this Amazon list:
 1. **Create a new workspace**:
    First, create a workspace for ROS 2 if you don’t have one already:
    ```bash
-   mkdir -p ~/ackbot_ws/src
-   cd ~/ackbot_ws/src
+   mkdir -p ~/ackbot_ws/
+   cd ~/ackbot_ws/
    ```
 2. **Clone the repository into the workspace**:
    ```bash
-   git clone https://github.com/thetacobytes/ackbot.git
+   git clone https://github.com/thetacobytes/ackbot.git .
    ```
 3. **Go to the workspace root and build**:
    Navigate back to the workspace root and build the workspace using `colcon`:
