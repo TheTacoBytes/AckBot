@@ -30,6 +30,31 @@ You can find all the necessary parts in this Amazon list:
 - ROS 2 Humble
 - A Raspberry Pi 4 With Ubuntu 22.04
 - Colcon build system
+  
+From this link you can get the **img** file to flash the microSD card for the Pi 4B 8GB (I recommned using [Etcher](https://etcher.balena.io/)).
+#### **Link**:
+[Ubuntu 22.04 Server Pi 4 IMG](https://drive.google.com/drive/folders/1WxypJMW6T0hi-66JYA1BB3ZOif5wu8fc?usp=sharing)
+
+*I will make every effort to update the code in the image whenever changes are made. If for any reason I am unable to update it immediately, I will mention it here so that you can clone the latest version of the repository and rebuild accordingly.*
+
+## Update the Wi-Fi on the Pi
+Connect the Pi to a monitor and sign in. The username is **ubuntu** and the password is **123**.
+
+### Steps to Update or Configure Wi-Fi Using `nmtui`
+   1.**Open Terminal**: Start by opening a terminal on your system.
+   
+   2.**Launch nmtui**: In the terminal, type the following command to launch the Network Manager Text User Interface:
+```bash
+nmtui
+```
+   3.**Navigate the Menu**: Once the nmtui interface opens, you’ll be presented with three options:
+- Activate a connection
+- Set system hostname
+-  Edit a connection
+
+Use the arrow keys to select **Activate a connection** and press Enter.
+
+If you only see one connection there just press Enter and the rest should load up. Then, use the arrows and select the network and enter the password.
 
 ### Clone the Repository and Set Up the Workspace
 
