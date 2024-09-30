@@ -65,7 +65,7 @@ If only one connection is initially displayed, press **Enter** to load the rest.
 1. **Create a new workspace**:
    First, create a workspace for ROS 2 if you don’t have one already:
    ```bash
-   mkdir -p ~/ackbot_ws/
+   mkdir ~/ackbot_ws/
    cd ~/ackbot_ws/
    ```
 2. **Clone the repository into the workspace**:
